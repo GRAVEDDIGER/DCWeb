@@ -1,0 +1,28 @@
+const FormBuild = styled.form`
+  > div {
+    margin: 0;
+    padding: 0;
+    > div {
+      margin: 0 !important;
+      padding: 0 !important;
+      position: relative;
+      display:flex;
+      > div {
+        margin: 0 !important;
+        padding: 0 !important;
+
+        > input {
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+      }
+      > label {position:absolute;top 0;
+      }
+    }
+  }
+`;
+const ComboBoxPages = styled(Autocomplete)`
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 12px;
+`;
